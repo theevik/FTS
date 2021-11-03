@@ -225,6 +225,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.011258 seconds.
@@ -456,4 +457,89 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=======
+Received Import Request.
+  Time since last request: 146.245437 seconds.
+  path: Assets/Scenes/Gwin's_Scene.unity
+  artifactKey: Guid(40dcb2853d431d84db532c793d50482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gwin's_Scene.unity using Guid(40dcb2853d431d84db532c793d50482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af74e856750e98355fba525fbdbb0e2') in 0.002780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1401.208981 seconds.
+  path: Assets/3D Assets
+  artifactKey: Guid(4b2d36688644e6d4ba5dbcd2d80fa892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets using Guid(4b2d36688644e6d4ba5dbcd2d80fa892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd31cb0f1d44d2932c482f7cb3d6326') in 0.006288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.116844 seconds.
+  path: Assets/3D Assets/Doors
+  artifactKey: Guid(7ffe801c6fd44214e9a2d91e7a29f94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Doors using Guid(7ffe801c6fd44214e9a2d91e7a29f94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2797c8badcce68fbd7b8143712501fca') in 0.013836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.629419 seconds.
+  path: Assets/3D Assets/Doors/Door 1 Color 4K.png
+  artifactKey: Guid(74bb6a085f904a44babf79508f14e40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Doors/Door 1 Color 4K.png using Guid(74bb6a085f904a44babf79508f14e40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74915bfb18d587b7962107dbda22afe3') in 0.045773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 190.199488 seconds.
+  path: Assets/3D Assets/Doors/Door 1 Roughness 4K.png
+  artifactKey: Guid(d836aeaebc696b54da3195a180c72126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Doors/Door 1 Roughness 4K.png using Guid(d836aeaebc696b54da3195a180c72126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fd5afe56866e382bf32606564a2915') in 0.016198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.623996 seconds.
+  path: Assets/3D Assets/Doors/Door 1 Normal 4K.png
+  artifactKey: Guid(274797cfbd2ae084c98eed1a9f2f3188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Doors/Door 1 Normal 4K.png using Guid(274797cfbd2ae084c98eed1a9f2f3188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9364184db2c19c18c17eb719d4c33087') in 0.012005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 271.907035 seconds.
+  path: Assets/3D Assets/Sliding Door Color 4K.png
+  artifactKey: Guid(770d27f8a6875924eaf75e5db7bb898a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Sliding Door Color 4K.png using Guid(770d27f8a6875924eaf75e5db7bb898a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fcd8bab3a150c07f4a9eb64841d2774') in 0.010433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.472410 seconds.
+  path: Assets/3D Assets/Sliding Door Normal 4K.png
+  artifactKey: Guid(31623f279c6e8b442981c21f7519fff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Sliding Door Normal 4K.png using Guid(31623f279c6e8b442981c21f7519fff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7647467eedaf19bd8dd9161934729de') in 0.010185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 190.081075 seconds.
+  path: Assets/3D Assets/Doors/Door 2 Normal 4K.png
+  artifactKey: Guid(41a0dc6f4e0fb8c48a9757b0d27a4c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Doors/Door 2 Normal 4K.png using Guid(41a0dc6f4e0fb8c48a9757b0d27a4c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f0512cd14253f82739bbad57315ecc') in 0.033792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 138.269904 seconds.
+  path: Assets/3D Assets/Doors/Glass_outdoors.obj
+  artifactKey: Guid(d3493498cd9232045909fb0f2fb0956a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Doors/Glass_outdoors.obj using Guid(d3493498cd9232045909fb0f2fb0956a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b0c387a01a77af570f20cdddf0a29a') in 0.035867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 409.167394 seconds.
+  path: Assets/3D Assets/Doors/Door_mats
+  artifactKey: Guid(ab2176f5fbf44e84e860a06c01948988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Doors/Door_mats using Guid(ab2176f5fbf44e84e860a06c01948988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a95cf3fee8e99c542705ab54d603ed') in 0.004855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.492870 seconds.
+  path: Assets/Scenes/Gwin's_Scene.unity
+  artifactKey: Guid(40dcb2853d431d84db532c793d50482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gwin's_Scene.unity using Guid(40dcb2853d431d84db532c793d50482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5ea40c8e9da0040d8f9bb2d1f89c4a') in 0.003027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.865745 seconds.
+  path: Assets/Scenes/Gwin's_Scene 1.unity
+  artifactKey: Guid(285c0f373c2276c42a21fdb3b985139b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gwin's_Scene 1.unity using Guid(285c0f373c2276c42a21fdb3b985139b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05881d91c14632e0871c27c9866f7105') in 0.005256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.562900 seconds.
+  path: Assets/Scenes/Gwin's_Scene_LTS1.unity
+  artifactKey: Guid(285c0f373c2276c42a21fdb3b985139b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gwin's_Scene_LTS1.unity using Guid(285c0f373c2276c42a21fdb3b985139b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98108e600fbaa51e0a042c68522b2755') in 0.005143 seconds 
+>>>>>>> origin/Killian's-Branch
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
