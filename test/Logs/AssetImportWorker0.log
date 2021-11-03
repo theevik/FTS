@@ -1,125 +1,125 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.17f1 (03b40fe07a36) revision 242703'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 18363.1854; Version 1909; 64bit' Language: 'en' Physical Memory: 16308 MB
+OS: 'Windows 10 Enterprise; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 32541 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity\2021.1.17f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.1.17f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Fts/FTS/test
+C:/Users/396860/Documents/GitHub/FTS/test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57048
-Successfully changed project path to: D:/Fts/FTS/test
-D:/Fts/FTS/test
+57641
+Successfully changed project path to: C:/Users/396860/Documents/GitHub/FTS/test
+C:/Users/396860/Documents/GitHub/FTS/test
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 78.31 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 95.96 ms, found 11 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.17f1 (03b40fe07a36)
-[Subsystems] Discovering subsystems at path D:/Unity/2021.1.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Fts/FTS/test/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/396860/Documents/GitHub/FTS/test/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e82)
     Vendor:   NVIDIA
-    VRAM:     8079 MB
-    Driver:   30.0.14.7111
+    VRAM:     8010 MB
+    Driver:   30.0.14.7168
 Initialize mono
-Mono path[0] = 'D:/Unity/2021.1.17f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2021.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/2021.1.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2021.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000670 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001629 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.98 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 88.30 ms, found 11 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.005 seconds
+- Completed reload, in  1.152 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1005ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (1152ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (363ms)
-			LoadAssemblies (47ms)
+		EndReloadAssembly (416ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (125ms)
+			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (183ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (207ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
+				RefreshPlugins (88ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (78ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005297 seconds.
+Registered in 0.009429 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Fts\FTS\test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\Fts\FTS\test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\396860\Documents\GitHub\FTS\test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\396860\Documents\GitHub\FTS\test\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 76.02 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 85.55 ms, found 11 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.095 seconds
+- Completed reload, in  1.262 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1095ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (1262ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (929ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1070ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (440ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (524ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (297ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (343ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 11 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 11 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3668 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.9 MB.
-System memory in use after: 135.1 MB.
+System memory in use before: 135.1 MB.
+System memory in use after: 135.3 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4120.
-Total: 2.941600 ms (FindLiveObjects: 0.241800 ms CreateObjectMapping: 0.183200 ms MarkObjects: 2.460200 ms  DeleteObjects: 0.055600 ms)
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4132.
+Total: 4.215300 ms (FindLiveObjects: 0.284300 ms CreateObjectMapping: 0.230700 ms MarkObjects: 3.635200 ms  DeleteObjects: 0.064000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,79 +133,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(6989df45a4f5669429f38c800adccdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6989df45a4f5669429f38c800adccdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745726b67c0dcaf42f9fb812815151cb') in 0.007391 seconds 
+  path: Assets/Scenes/Vik's_Scene.unity
+  artifactKey: Guid(cf23bed954523894c8c47af8d96efff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Vik's_Scene.unity using Guid(cf23bed954523894c8c47af8d96efff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1903a498e9f1c354e4fe8fd26d3c93aa') in 0.016827 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000140 seconds.
+  Time since last request: 66.372742 seconds.
   path: Assets/Scenes/LTS_Base.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LTS_Base.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b99d7aa6866f5d8b87f0e60a0089f53') in 0.011081 seconds 
+Start importing Assets/Scenes/LTS_Base.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b99d7aa6866f5d8b87f0e60a0089f53') in 0.008175 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 169.032582 seconds.
-  path: Assets/Scenes/Vik's_Scene.unity
-  artifactKey: Guid(ca3de808d8291d0439e0a0dd72445b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Vik's_Scene.unity using Guid(ca3de808d8291d0439e0a0dd72445b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe3ed55c9100f6c7ff1b8f192cab6fb') in 0.005075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.273101 seconds.
-  path: Assets/Scenes/LTS_Base 1.unity
-  artifactKey: Guid(d6f333dc6c1eec744bacecb8bee0476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LTS_Base 1.unity using Guid(d6f333dc6c1eec744bacecb8bee0476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3598d200750fdbeb2844724af44b30') in 0.005974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.531543 seconds.
-  path: Assets/Scenes/LTS_Base 2.unity
-  artifactKey: Guid(40dcb2853d431d84db532c793d50482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LTS_Base 2.unity using Guid(40dcb2853d431d84db532c793d50482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4648ca85ab1892d41fc5164bcc5a28') in 0.005972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.739860 seconds.
-  path: Assets/Scenes/LTS_Base 3.unity
-  artifactKey: Guid(892e77f98c816654cbd4eee5e3d87ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LTS_Base 3.unity using Guid(892e77f98c816654cbd4eee5e3d87ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406e4cef1c89b3619c10c367286610c7') in 0.006381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 58.571997 seconds.
-  path: Assets/Scenes/Vik's_Scene.unity
-  artifactKey: Guid(d6f333dc6c1eec744bacecb8bee0476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Vik's_Scene.unity using Guid(d6f333dc6c1eec744bacecb8bee0476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6036066058f703f95a37b96a8a9704') in 0.005368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.524682 seconds.
-  path: Assets/Scenes/Gwin's_Scene.unity
-  artifactKey: Guid(40dcb2853d431d84db532c793d50482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Gwin's_Scene.unity using Guid(40dcb2853d431d84db532c793d50482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f63f170f5436738caddf63b674bffe') in 0.005515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.291948 seconds.
+  Time since last request: 4.514922 seconds.
   path: Assets/Scenes/Kill's_Scene.unity
   artifactKey: Guid(892e77f98c816654cbd4eee5e3d87ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Kill's_Scene.unity using Guid(892e77f98c816654cbd4eee5e3d87ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8ffd83340dccd83bcda3cd1a42ecc9') in 0.005132 seconds 
+Start importing Assets/Scenes/Kill's_Scene.unity using Guid(892e77f98c816654cbd4eee5e3d87ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8ffd83340dccd83bcda3cd1a42ecc9') in 0.008946 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 83.678969 seconds.
-  path: Assets/Scenes/Vik's_Scene.unity
-  artifactKey: Guid(d6f333dc6c1eec744bacecb8bee0476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Vik's_Scene.unity using Guid(d6f333dc6c1eec744bacecb8bee0476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46b92a1fa47a65b45d4b626ce0445de') in 0.002830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.569215 seconds.
-  path: Assets/SteamVR
-  artifactKey: Guid(74a253a716eedab49840d35b119fa856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR using Guid(74a253a716eedab49840d35b119fa856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9b30c356857ad6e5dc3b373c1180be') in 0.005243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.426896 seconds.
-  path: Assets/Scenes/LTS_Base 1.unity
-  artifactKey: Guid(cf23bed954523894c8c47af8d96efff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LTS_Base 1.unity using Guid(cf23bed954523894c8c47af8d96efff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4577e5a635e73e9961ca06414ef5e378') in 0.002260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.442279 seconds.
-  path: Assets/Scenes/Vik's_Scene.unity
-  artifactKey: Guid(cf23bed954523894c8c47af8d96efff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Vik's_Scene.unity using Guid(cf23bed954523894c8c47af8d96efff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1903a498e9f1c354e4fe8fd26d3c93aa') in 0.002388 seconds 
+  Time since last request: 1.090197 seconds.
+  path: Assets/Scenes/Gwin's_Scene.unity
+  artifactKey: Guid(40dcb2853d431d84db532c793d50482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gwin's_Scene.unity using Guid(40dcb2853d431d84db532c793d50482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f63f170f5436738caddf63b674bffe') in 0.006613 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
