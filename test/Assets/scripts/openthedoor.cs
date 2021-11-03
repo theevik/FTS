@@ -9,7 +9,7 @@ public class openthedoor : MonoBehaviour
    
    public void openDoor()
     {
-        Debug.Log("idk man");
+        Debug.Log("raboti mama ti deba");
 
         door.SetActive(false);
     }
